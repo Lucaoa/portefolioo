@@ -142,8 +142,14 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
+
+.link_trans{
+  opacity: 50%;
+  transition: 5s;
+}
+
 .nav-menu {
   padding: 0;
   display: block;
@@ -183,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu a, .nav-menu a:focus {
     width: 56px;
   }
-  .nav-menu a span, .nav-menu a:focus span {
+  .nav-menu a span,  a:focus span {
     display: none;
     color: #fff;
   }
@@ -242,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/ux-indonesia-qC2n6RQU4Vw-unsplash.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -509,6 +515,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.swiper-wrapper2{
+  margin-bottom: 50px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
